@@ -1,0 +1,617 @@
+ @import url("https://use.typekit.net/rjm7pit.css");
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+	
+	html, body{ 
+	margin:10px 0 0 0; 
+	padding:0; 
+}
+
+	body{
+		background-color: #f2f1ef;
+	}
+
+	h1 {
+			color:#2146C7;
+			font-size: 50px;
+			padding-left: 160px;
+			font-family: futura-pt;
+
+		}
+
+	p {
+		color: #202526;
+		font-size: 1rem;
+		font-family: futura-pt;
+		}
+
+
+h1, h2, h3{
+	font-family: futura-pt;
+	color: #202526;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3rem;
+}
+
+div.logo{
+	margin-left: 100px;
+}
+
+.menu{
+	justify-self: center;
+}
+
+	nav{
+		display: flex;
+		justify-content: center 
+		}
+
+	nav li {
+		list-style: none;
+		display: inline;
+		}
+
+
+	nav  a{ /* tous les liens a à l'intérieur de la balise nav */
+		top: 0;
+		display: inline-block;
+		float: left; /* effet flottant */
+		text-decoration: none; /* pas d'héritage avec effet souligné */
+		color: #202526; /* couleur du texte */
+		height: 30px; /* hauteur */
+		line-height: 30px; /* interligne */
+		padding: 0 80px; /* marges intérieur */
+		font-family: futura-pt; /* police d'écriture */
+		transition: .3s; /* temps de transition lors du hover : une demi seconde */
+		font-weight: 700;
+		}
+
+	nav  a:hover{ /* tous liens lors du survol dans la balise nav */
+		text-decoration: overline;
+		color: #2146C7;
+
+		}	
+
+			a.parlons {
+			text-align: center;
+			text-decoration: none;
+			font-family: futura-pt;
+			color: #2146C7;
+			border: 2px solid rgb(33, 70, 199);
+			background-color: #f2f1ef;
+			padding: 0 10px;
+		    cursor: pointer;
+		    display: inline-flex;
+		    width: 90px;
+		    height: 40px;
+		    font-weight: 700;
+		    transition: .2s;
+		    align-items: center;
+			vertical-align: middle;
+			justify-content: center;
+		   
+		    
+		}
+
+
+		a.parlons:hover {
+		  background-color:#2146C7;
+		  color : white;
+		  cursor: pointer;
+		}
+
+.split-screen {
+    display: flex;
+}
+
+.split-screen__half {
+    flex: 1;
+}
+
+.content-gauche{
+	line-height: 65px;
+	margin-top: 150px;
+}
+
+.content-gauche ul{
+	margin: 0;
+	padding: 0;
+}
+
+h1.hello{
+	padding: 0 auto 0 9vw;
+	margin: inherit;
+}
+
+.content-gauche h1{
+	padding-left: 9vw;
+}
+
+.content-gauche ul{
+			padding-left: 9vw;
+}
+
+.content-gauche li{
+		vertical-align: middle;
+		list-style: none;
+		display: inline;
+		font-size: 3rem;
+		font-weight: 700;
+		font-family: futura-pt;
+		color: #202526;
+		}
+.btn-gauche{
+	margin-top: 25px;
+}
+
+.btn-gauche ul{
+	line-height: 0;
+	display: flex;
+}
+
+.btn-gauche li{
+		vertical-align: middle;
+		list-style: none;
+		display: inline;
+
+}
+
+p.projet{
+	border: 2px solid rgb(33, 70, 199);
+	padding-right: 0;
+	margin: 0;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	background-color: #2146C7;
+	color: white;
+	text-align: center;
+	width: 300px;
+	height: 40px;
+	vertical-align: middle;
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+
+a.parlons{
+	width: 275px;
+	margin-left: 0;
+	display: inline-flex;
+	font-size: 1.3rem;
+}
+
+
+h1.cd-headline {
+	margin: 0;
+}
+
+		div.imgmoi {
+		text-align: right;
+		padding-right: 9vw;
+		}
+
+.ctn-bandeau{
+	transform: rotate(-1.3deg);
+	margin-top: -50px;
+	width: 100%;
+	overflow: hidden;
+}
+
+		div.bandeau{
+			width: auto;
+			background-color: #2146C7;
+			margin-bottom: 50px;
+			display: flex;
+			justify-content: center;
+			overflow-y: hidden;
+			}
+
+
+
+		.bandeau li{
+		color: #f2f1ef;
+		list-style: none;
+		font-size: 3rem;
+		padding: 0 50px 0 50px;
+		font-family: futura-pt;
+		font-weight: 700;
+		align-items: center;
+		vertical-align: middle;
+		justify-content: center;
+		display: inline-flex;
+		}
+		
+.sidebar {
+	align-items: center;
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+
+}
+
+.sidebar h1,h2{
+	margin: 0;
+}
+
+.sidebar__sidebar {
+    width: 30%;
+}
+
+.sidebar__main {
+	justify-content: center;
+	vertical-align: middle;
+	padding-right: 160px;
+	padding-left: 50px;
+
+    /* Take the remaining width */
+    flex: 1;
+
+    /* Make it scrollable */
+    overflow: auto;
+}
+
+.ctn-wrapall{
+	padding-top: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.wrapall{
+	display: flex;
+	justify-self: center;
+	width: 80%;
+}
+
+.xppro{
+	margin-bottom: 30px;
+	font-size: 3rem;
+	display: flex;
+    text-align: center;
+    font-family: futura-pt;
+    font-weight: 700;
+    color: #202526;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctnxp{
+    font-family: futura-pt;
+    font-size: 1,5rem;
+    font-weight: 500;
+}
+
+.wrapXP{
+	width: 80%;
+}
+
+.XPGROUP1{
+	width: 100%;
+	display: flex;
+	vertical-align: middle;
+    text-align: center;
+    font-family: futura-pt;
+    font-weight: 700;
+    color: #202526;
+    padding-bottom: 2rem;
+}
+
+.XP1{
+	width: 33.333%;
+	padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.TITREXP1{
+	font-size: 1.5rem;
+    color: #2146C7;
+}
+
+.date1{
+	display: inline-flex;
+	font-size: 1.2rem;
+}
+
+.XP2{
+	width: 33.333%;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+    padding-right: 2rem;
+}
+.TITREXP2{
+	font-size: 1.5rem;
+}
+
+.date2{
+	display: inline-flex;
+	font-size: 1.2rem;
+    color: #2146C7
+}
+
+.XP3{
+	width: 33.333%;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+}
+.TITREXP3{
+	font-size: 1.5rem;
+    color: #2146C7;
+}
+
+.date3{
+	display: inline-flex;
+	font-size: 1.2rem;
+}
+
+.XPGROUP2{
+	width: 100%;
+	display: flex;
+	vertical-align: middle;
+    text-align: center;
+    font-family: futura-pt;
+    font-weight: 700;
+    color: #202526;
+    padding-bottom: 2rem;
+}
+
+
+.XP4{
+	width: 33.333%;
+	padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+.TITREXP4{
+	font-size: 1.5rem;
+}
+
+.date4{
+	display: inline-flex;
+	font-size: 1.2rem;
+	color: #2146C7;
+}
+
+.XP5{
+	width: 33.333%;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+    padding-right: 2rem;
+}
+.TITREXP5{
+	font-size: 1.5rem;
+    color: #2146C7;
+}
+
+.date5{
+	display: inline-flex;
+	font-size: 1.2rem;
+}
+
+.XP6{
+	width: 33.333%;
+	padding-bottom: 2rem;
+	padding-left: 2rem;
+}
+.TITREXP6{
+	font-size: 1.5rem;
+}
+
+.date6{
+	display: inline-flex;
+	font-size: 1.2rem;
+	color: #2146C7;
+}
+
+
+.CompAll{
+	width: 80%;
+	padding-left: 20%;}
+
+.Comp{
+	margin-bottom: 30px;
+	font-size: 3rem;
+	display: flex;
+    text-align: center;
+    font-family: futura-pt;
+    font-weight: 700;
+    color: #202526;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.container{
+    /* Colors */
+    background-color: #bbd2e1;
+
+    /* Rounded border */
+    border-radius: 9999px;
+    padding: 0.25rem;
+}
+
+.container__progress{
+	width: 100%;
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Colors */
+    background-color: #2146C7;
+    color: #fff;
+
+    /* Rounded border */
+    border-radius: 9999px;
+}
+
+.wrapComp{
+	width: 50%;
+}
+
+.Grpcomp{
+	width: 100%;
+	align-items: center;
+	display: inline-block;
+	vertical-align: middle;
+    text-align: center;
+    font-family: futura-pt;
+    font-weight: 700;
+    color: #202526;
+    padding-bottom: 2rem;
+}
+
+
+.Comp1{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+    color: #2146C7;
+    margin : inherit;
+}
+
+
+.Comp2{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+    margin : inherit;
+}
+
+
+
+.Comp3{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+    color: #2146C7;
+    margin : inherit;
+}
+
+
+
+.Comp4{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+    margin : inherit;
+}
+
+
+
+
+
+/* PASSION */
+
+.wrap-passion{
+	margin: 10px 0 30px 0;
+}
+
+.passion{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.passion-title{
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 3rem;
+    font-family: futura-pt;
+    font-weight: 700;
+}
+
+.passion ul{
+	display: flex;
+		align-items: center;
+		vertical-align: middle;
+		justify-content: center;
+		font-size: 2rem;
+		}
+
+.passion li{
+		list-style: none;
+		padding:0 10% 0 10% ;
+		font-family: futura-pt;
+		font-weight: 700;
+}
+
+.passion p{
+	font-size: 1.2rem;
+}
+
+.bleutxt{
+		color: #2146C7;
+;
+}
+
+li svg:hover{
+	transition: .2s;
+	fill: #2146C7;
+}
+
+
+
+/* FOOTER*/
+
+
+.footer{
+    height: 250px;
+    background-color: #2146C7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-blanc{
+	margin-left: 200px;
+}
+
+.logo-blanc svg{
+	fill: white;
+}
+
+.infoperso{
+	text-align: right;
+	margin-right: 200px;
+}
+
+.footer-title{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.1rem;
+    margin-bottom: inherit;
+    margin-top: inherit;
+    color: white;
+    font-size: 50px;
+    padding-left: 160px;
+    font-family: futura-pt;
+}
+
+.infoperso li{
+		padding-bottom: 5px;
+		color: white;
+		font-family: futura-pt;
+		font-weight: 700;
+		vertical-align: middle;
+		list-style: none;
+		display: block;
+}
+
+li .lien{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
